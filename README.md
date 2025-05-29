@@ -11,9 +11,9 @@ This template is brought to you by the minds behind the Drauven PCs project and 
 1. **Unzip** the contents of this package.
 1. **Copy** the unzipped `assets` folder to the root folder your mod. (Found at `[wildermyth-base-directory]/mods/user/[your-mod-name]`)
 1. **Rename** all files in this project by changing all instances of `customSpecies` to your new species name, leading with a lowercase letter. (For example: if making playable Gorgons, `customSpeciesBase.json` becomes `gorgonBase.json`)
-  - **Note:** Files without `customSpecies` in the name do not have to be renamed. 
+    - **Note:** Files without `customSpecies` in the name do not have to be renamed. 
 1. **Find/Replace** in all files, changing `customSpecies` (case-sensitive) to your species name (leading with a lowercase letter), then finding all instances of `CustomSpecies` (case-sensitive, only found in `assets/data/generation/humanNames.json`) with your species name (leading with a capital letter).
-  - **Tip:** Using a code editor, such as [VS Code](https://code.visualstudio.com/download), will allow you to find/replace across all files in a project folder very quickly.
+    - **Tip:** Using a code editor, such as [VS Code](https://code.visualstudio.com/download), will allow you to find/replace across all files in a project folder very quickly.
 
 You are now ready to design your own nonhuman characters to add to the game!
 

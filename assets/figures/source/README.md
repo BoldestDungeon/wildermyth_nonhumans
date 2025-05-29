@@ -6,7 +6,7 @@ The files in this folder are intended to help you set up your custom-species her
 
 * An image editor capable of reading and writing to the `.psd` file format (Such as Krita, GIMP, Affinity Photo, Photopea, or other compatible program).
 * A method of exporting all layers as individual `.png` files that preserves the canvas size.
-  - If your editor of choice does not have a suitable built-in option, you can install the [ImageMagick command-line tool](https://imagemagick.org/script/download.php) to handle the export part. 
+    - If your editor of choice does not have a suitable built-in option, you can install the [ImageMagick command-line tool](https://imagemagick.org/script/download.php) to handle the export part. 
 
 When exporting your image files, all files need to be saved to `/assets/figures/images/human/misc`
 
