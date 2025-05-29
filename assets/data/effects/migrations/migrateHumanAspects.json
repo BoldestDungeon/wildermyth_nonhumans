@@ -1,0 +1,41 @@
+{
+  "id": "migrateHumanAspects",
+  "info": {
+    "dataVersion": 1,
+    "sourceFile": "migrations/migrateHumanAspects",
+    "author": "Ironskink",
+    "STUB": "Breaks the 'human' aspect into multiple aspects for each separate area of concern. Runs when this mod is enabled in the middle of an existing campaign to update existing heroes."
+  },
+  "type": "ABILITIES_CHANGED",
+  "targets": [
+    {
+      "template": "SELF",
+      "aspectValues": [
+        { "id": "nonhuman", "forbidden": true },
+        { "id": "trueHuman", "forbidden": true },
+        { "id": "humanBaseStats", "forbidden": true },
+        { "id": "humanVoice", "forbidden": true },
+        { "id": "heroicActions", "forbidden": true },
+        { "id": "basicInterfusionRecipes", "forbidden": true }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "class": "AddHistory",
+      "target": "self",
+      "inlineHistory": {
+        "id": "humanAspectsMigration",
+        "associatedAspects": [
+          "trueHuman",
+          "humanBaseStats",
+          "humanVoice",
+          "heroicActions",
+          "basicInterfusionRecipes"
+        ],
+        "persistOverLegacy": "never",
+        "showInSummary": false
+      }
+    }
+  ]
+}

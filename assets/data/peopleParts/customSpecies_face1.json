@@ -1,0 +1,35 @@
+{
+	"type": "extra",
+	"extraSlot": "customSpecies_face",
+	"requireAspects": ["customSpecies_naturalHead"],
+	"requireOneValidLayer": true,
+
+	"groups": [
+		{"groupIndex": 0, "male": true, "maleWeight": 1, "female": true, "femaleWeight": 1},
+		{"groupIndex": 1, "male": true, "maleWeight": 1, "female": true, "femaleWeight": 1},
+		{"groupIndex": 2, "male": true, "maleWeight": 1, "female": true, "femaleWeight": 1},
+		{"groupIndex": 3, "male": true, "maleWeight": 1, "female": true, "femaleWeight": 1}
+	],
+	"layers": [
+    {
+      "name": "face_$face_customSpecies_head1",
+			"ifOwnerHasPart": "customSpecies_head1",
+      "tint": "skin", 
+      "depth": 4000,
+      "headOffset": true,
+      "expandFaceToExpressions": true,
+      "ifOwnerAspect": "customSpecies",
+      "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"]
+    },
+    {
+      "name": "face_$face_customSpecies_head2",
+			"ifOwnerHasPart": "customSpecies_head2",
+      "tint": "skin", 
+      "depth": 4000,
+      "headOffset": true,
+      "expandFaceToExpressions": true,
+      "ifOwnerAspect": "customSpecies",
+      "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"]
+    }
+  ]
+}

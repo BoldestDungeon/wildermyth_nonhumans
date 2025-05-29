@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "customSpecies_naturalHead",
+    "STUB": "Contains the layer definitions for all of the details that might appear on the heads of our nonhuman characters (scars, tattoos, etc.). See the README file in this folder for more information.",
+    "importance": -1,
+    "skinLayers": [
+      {
+        "name": "head_tattooFireDraconic_customSpecies_head1",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireDraconic", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooBearTattooB_tint1_30_customSpecies_head1",
+        "tint": "primary",
+        "tintAmount": 0.3,
+        "depth": 4051,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_scar1_customSpecies_head1",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scar", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "hair_starsGold_customSpecies_head1",
+        "depth": 4240,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_star_hairStars", "themeSkin_starGold", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "hair_starsGalaxy_customSpecies_head1",
+        "depth": 4240,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_star_hairStars", "themeSkin_starGalaxy", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_vinesCarnivorousB_untinted_customSpecies_head1",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesCarnivorous", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_vinesCarnivorousA_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesCarnivorous", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_vineForeheadMythicalB_untinted_customSpecies_head1",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesMythical", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_vineForeheadMythicalA_tint_customSpecies_head1",
+        "tint": "secondary",
+        "tintAmount": 0.8,
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects":[ "themePiece_vine_head", "themeSkin_vinesMythical", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_vineForeheadB_tint1_customSpecies_head1",
+				"depth": 4251,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"],
+				"ifNoOwnerAspect": "themeSkin_vine*"
+      },
+      {
+        "name": "face_vineForeheadA_untinted_customSpecies_head1",
+				"tint": "secondary",
+				"depth": 4250,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"],
+				"ifNoOwnerAspect": "themeSkin_vine*"
+      },
+      {
+        "name": "face_gorgonCrustPetri_customSpecies_head1",
+        "depth": 4260, 
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_gorgonPetriglass", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_gorgonCrust_customSpecies_head1",
+        "depth": 4260, 
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_gorgon*",
+        "ifOwnerAspects": ["themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_fireBloomB_untinted_customSpecies_head1",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_fireBloomA_tint2_60_customSpecies_head1",
+        "tint": "secondary",
+        "tintAmount": 0.6,
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemShardRB_untinted_customSpecies_head1",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemShard", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemShardRA_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemShard", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemRB_untinted_customSpecies_head1",
+				"depth": 4151,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"],
+				"ifNoOwnerAspect": "themeSkin_gem*"
+      },
+      {
+        "name": "face_eyeGemRA_tint1_customSpecies_head1",
+				"tint": "primary",
+				"depth": 4150,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"],
+				"ifNoOwnerAspect": "themeSkin_gem*"
+      },
+      {
+        "name": "face_eyeGemKnightRB_untinted_customSpecies_head1",
+        "depth": 4151,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemKnight", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemKnightRA_tint1_75_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4150,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemKnight", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemGlassRD_untinted_customSpecies_head1",
+        "depth": 4153,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemGlassRC_tint2_customSpecies_head1",
+        "tint": "secondary",
+        "depth": 4152,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemGlassRB_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4151,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemGlassRA_untinted_customSpecies_head1",
+        "depth": 4150,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemCaveRB_untinted_customSpecies_head1",
+        "depth": 4551,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemCave", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeGemCaveRA_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4550,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemCave", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooStormSea_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormSea", "humanSkin_extra|customSpecies_head|customSpecies_head1" ]
+      },
+      {
+        "name": "head_tattooStorm_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_storm*",
+        "ifOwnerAspects": ["themePiece_storm_head", "humanSkin_extra|customSpecies_head|customSpecies_head1" ]
+      },
+      {
+        "name": "head_tattooStormJagged_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormJagged", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooStormGold_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormGold", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooStormCuffs_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormCuffs", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooSpelltouched_customSpecies_head1",
+        "bodyPart": "head",
+        "depth": 4005,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_spellTouchedTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooGreenKnot_customSpecies_head1",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_green_tattoo", "themeSkin_greenKnot", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooGreen_customSpecies_head1",
+				"depth": 4050,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_green*",
+        "ifOwnerAspects": ["themePiece_green_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooGreenDeer_customSpecies_head1",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_green_tattoo", "themeSkin_greenDeer", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFoothillObsidian_customSpecies_head1",
+        "tint": "secondary",
+        "tintAmount": 0.4,
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillObsidian", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFoothillMossy_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillMossy", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFoothill_customSpecies_head1",
+				"depth": 4010,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_foothill*",
+        "ifOwnerAspects": ["themePiece_foothill_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFoothillCanyon_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillCanyon", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFireHelix_customSpecies_head1",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireHelix", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFire_customSpecies_head1",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireLava", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFire_customSpecies_head1",
+				"depth": 4052,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"rigMode": "maleHead",
+				"ifNoOwnerAspect": "themeSkin_fire*",
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooFireBloom_customSpecies_head1",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooDeepistMole_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_deepistMole_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooDeepist_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_deepist_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooBearTattooA_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooBearGhost_customSpecies_head1",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearGhost", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_tattooBear_customSpecies_head1",
+				"depth": 4050,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_bear*",
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_scarFire_customSpecies_head1",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_fireBurn", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_scarFire_customSpecies_head1",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scarFire", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_scarAcid_customSpecies_head1",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_acidBurn", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_scarAcid_customSpecies_head1",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scarAcid", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_gorgonColorPetri_customSpecies_head1",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_gorgonPetriglass", "themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "head_gorgonColor_customSpecies_head1",
+				"depth": 4010,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowMouthyC_untinted_customSpecies_head1",
+        "depth": 4252,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects":[ "themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowMouthyB_tint2_customSpecies_head1",
+        "tint": "secondary",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowMouthyA_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowFlameD_tint2_customSpecies_head1",
+        "tint": "secondary",
+        "depth": 4255,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowFlameC_untinted_customSpecies_head1",
+        "depth": 4254,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowFlameB_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4253,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_shadowFlameA_untinted_customSpecies_head1",
+        "depth": 4252,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_fireDraconic_customSpecies_head1",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireDraconic", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyepatch_customSpecies_head1",
+        "depth": 4150,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_eyepatch", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeFireR_customSpecies_head1",
+				"depth": 4250,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_rightEye", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_eyeFireL_customSpecies_head1",
+				"depth": 4250,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_rightEye", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_demonHornsWildB_tint1_customSpecies_head1",
+        "tint": "primary",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowWild", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_demonHornsWildA_untinted_customSpecies_head1",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowWild", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_demonHornsB_tint1_customSpecies_head1",
+				"tint": "secondary",
+				"depth": 4251,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_shadow*",
+        "ifOwnerAspects": ["themePiece_shadow_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+      {
+        "name": "face_demonHornsA_untinted_customSpecies_head1",
+				"depth": 4250,
+				"headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+				"ifNoOwnerAspect": "themeSkin_shadow*",
+        "ifOwnerAspects": ["themePiece_shadow_head", "humanSkin_extra|customSpecies_head|customSpecies_head1"]
+      },
+
+
+      {
+        "name": "head_tattooFireDraconic_customSpecies_head2",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireDraconic", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooBearTattooB_tint1_30_customSpecies_head2",
+        "tint": "primary",
+        "tintAmount": 0.3,
+        "depth": 4051,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_scar1_customSpecies_head2",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scar", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "hair_starsGold_customSpecies_head2",
+        "depth": 4240,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_star_hairStars", "themeSkin_starGold", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "hair_starsGalaxy_customSpecies_head2",
+        "depth": 4240,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_star_hairStars", "themeSkin_starGalaxy", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_vinesCarnivorousB_untinted_customSpecies_head2",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesCarnivorous", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_vinesCarnivorousA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesCarnivorous", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_vineForeheadMythicalB_untinted_customSpecies_head2",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "themeSkin_vinesMythical", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_vineForeheadMythicalA_tint_customSpecies_head2",
+        "tint": "secondary",
+        "tintAmount": 0.8,
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects":[ "themePiece_vine_head", "themeSkin_vinesMythical", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_vineForeheadB_tint1_customSpecies_head2",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"],
+        "ifNoOwnerAspect": "themeSkin_vine*"
+      },
+      {
+        "name": "face_vineForeheadA_untinted_customSpecies_head2",
+        "tint": "secondary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_vine_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"],
+        "ifNoOwnerAspect": "themeSkin_vine*"
+      },
+      {
+        "name": "face_gorgonCrustPetri_customSpecies_head2",
+        "depth": 4260, 
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_gorgonPetriglass", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_gorgonCrust_customSpecies_head2",
+        "depth": 4260, 
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_gorgon*",
+        "ifOwnerAspects": ["themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_fireBloomB_untinted_customSpecies_head2",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_fireBloomA_tint2_60_customSpecies_head2",
+        "tint": "secondary",
+        "tintAmount": 0.6,
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemShardRB_untinted_customSpecies_head2",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemShard", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemShardRA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemShard", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemRB_untinted_customSpecies_head2",
+        "depth": 4151,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"],
+        "ifNoOwnerAspect": "themeSkin_gem*"
+      },
+      {
+        "name": "face_eyeGemRA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4150,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"],
+        "ifNoOwnerAspect": "themeSkin_gem*"
+      },
+      {
+        "name": "face_eyeGemKnightRB_untinted_customSpecies_head2",
+        "depth": 4151,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemKnight", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemKnightRA_tint1_75_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4150,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemKnight", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemGlassRD_untinted_customSpecies_head2",
+        "depth": 4153,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemGlassRC_tint2_customSpecies_head2",
+        "tint": "secondary",
+        "depth": 4152,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemGlassRB_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4151,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemGlassRA_untinted_customSpecies_head2",
+        "depth": 4150,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemGlass", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemCaveRB_untinted_customSpecies_head2",
+        "depth": 4551,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemCave", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeGemCaveRA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4550,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gem_head", "themeSkin_gemCave", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+
+      {
+        "name": "head_tattooStormSea_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormSea", "humanSkin_extra|customSpecies_head|customSpecies_head2" ]
+      },
+      {
+        "name": "head_tattooStorm_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_storm*",
+        "ifOwnerAspects": ["themePiece_storm_head", "humanSkin_extra|customSpecies_head|customSpecies_head2" ]
+      },
+      {
+        "name": "head_tattooStormJagged_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormJagged", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooStormGold_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormGold", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooStormCuffs_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_storm_head", "themeSkin_stormCuffs", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooSpelltouched_customSpecies_head2",
+        "bodyPart": "head",
+        "depth": 4005,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_spellTouchedTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooGreenKnot_customSpecies_head2",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_green_tattoo", "themeSkin_greenKnot", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooGreen_customSpecies_head2",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_green*",
+        "ifOwnerAspects": ["themePiece_green_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooGreenDeer_customSpecies_head2",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_green_tattoo", "themeSkin_greenDeer", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFoothillObsidian_customSpecies_head2",
+        "tint": "secondary",
+        "tintAmount": 0.4,
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillObsidian", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFoothillMossy_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillMossy", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFoothill_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_foothill*",
+        "ifOwnerAspects": ["themePiece_foothill_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFoothillCanyon_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_foothill_head", "themeSkin_foothillCanyon", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFireHelix_customSpecies_head2",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireHelix", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFire_customSpecies_head2",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireLava", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFire_customSpecies_head2",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "rigMode": "maleHead",
+        "ifNoOwnerAspect": "themeSkin_fire*",
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooFireBloom_customSpecies_head2",
+        "depth": 4052,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireBloom", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooDeepistMole_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_deepistMole_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooDeepist_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_deepist_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooBearTattooA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearTattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooBearGhost_customSpecies_head2",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "themeSkin_bearGhost", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_tattooBear_customSpecies_head2",
+        "depth": 4050,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_bear*",
+        "ifOwnerAspects": ["themePiece_bear_tattoo", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_scarFire_customSpecies_head2",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_fireBurn", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_scarFire_customSpecies_head2",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scarFire", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_scarAcid_customSpecies_head2",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_acidBurn", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_scarAcid_customSpecies_head2",
+        "bodyPart": "head",
+        "depth": 4050,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_scarAcid", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_gorgonColorPetri_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_gorgonPetriglass", "themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "head_gorgonColor_customSpecies_head2",
+        "depth": 4010,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_gorgon_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowMouthyC_untinted_customSpecies_head2",
+        "depth": 4252,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects":[ "themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowMouthyB_tint2_customSpecies_head2",
+        "tint": "secondary",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowMouthyA_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowMouthy", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowFlameD_tint2_customSpecies_head2",
+        "tint": "secondary",
+        "depth": 4255,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowFlameC_untinted_customSpecies_head2",
+        "depth": 4254,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowFlameB_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4253,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_shadowFlameA_untinted_customSpecies_head2",
+        "depth": 4252,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowFlame", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_fireDraconic_customSpecies_head2",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_tattoo", "themeSkin_fireDraconic", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyepatch_customSpecies_head2",
+        "depth": 4150,
+        "rigUsage": "rigGeneral",
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["human_eyepatch", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeFireR_customSpecies_head2",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_rightEye", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_eyeFireL_customSpecies_head2",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_fire_rightEye", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_demonHornsWildB_tint1_customSpecies_head2",
+        "tint": "primary",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowWild", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_demonHornsWildA_untinted_customSpecies_head2",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themePiece_shadow_head", "themeSkin_shadowWild", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_demonHornsB_tint1_customSpecies_head2",
+        "tint": "secondary",
+        "depth": 4251,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_shadow*",
+        "ifOwnerAspects": ["themePiece_shadow_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      },
+      {
+        "name": "face_demonHornsA_untinted_customSpecies_head2",
+        "depth": 4250,
+        "headOffset": true, 
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifNoOwnerAspect": "themeSkin_shadow*",
+        "ifOwnerAspects": ["themePiece_shadow_head", "humanSkin_extra|customSpecies_head|customSpecies_head2"]
+      }
+    ]
+  }
+]

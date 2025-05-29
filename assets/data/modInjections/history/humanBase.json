@@ -1,0 +1,10 @@
+{
+  "modInjections": [
+    {
+      "jsonPath": "humanBase.001/impliedAspects",
+      "type": "stringList",
+      "addStrings": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes", "trueHuman" ],
+      "remove": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes", "trueHuman" ]
+    }
+  ]
+  }

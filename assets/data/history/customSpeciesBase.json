@@ -1,0 +1,108 @@
+[
+  {
+    "id": "humanBase.customSpecies",
+    "category": "humanBase",
+    "weight": 0.2,
+    "impliedAspects": [
+      "human",
+      "humanRig",
+      "heroicActions", 
+      "humanVoice",
+
+      "nonhuman",
+      "rigOverride|customSpecies",
+      "customSpeciesBaseStats",
+      "customSpeciesInterfusionRecipes",
+      "customSpecies_naturalHead",
+
+      "activeDefender",
+      "alive",
+      "eligibleForDeathChoice",
+      "canWallWithAllies",
+      "simplePresence",
+      "ATTACHMENTS_workingRightArm",
+      "ATTACHMENTS_workingLeftArm",
+      "humanSkin_naturalLeftArm",
+      "humanSkin_naturalLeftHand",
+      "humanSkin_naturalRightArm",
+      "humanSkin_naturalRightHand",
+      "humanSkin_naturalLeftLeg",
+      "humanSkin_naturalRightLeg"
+    ],
+    "forbiddenAspects": ["trueHuman", "humanMale", "humanFemale"],
+    "showInSummary": false
+  },
+
+  {
+    "id": "customSpecies_500",
+    "weight": 0.95,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "female", "attractedToMen", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "heterosexual", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesMaleName"
+  },
+  {
+    "id": "customSpecies_501",
+    "weight": 0.03,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "female", "attractedToWomen", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "gay", "attractedToMen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesMaleName"
+  },
+  {
+    "id": "customSpecies_502",
+    "weight": 0.95,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "male", "attractedToWomen", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "heterosexual", "attractedToMen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesFemaleName"
+  },
+  {
+    "id": "customSpecies_503",
+    "weight": 0.03,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "male", "attractedToMen", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "gay", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesFemaleName"
+  },
+  {
+    "id": "customSpecies_504",
+    "weight": 0.04,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "female", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "attractedToMen", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesMaleName"
+  },
+  {
+    "id": "customSpecies_505",
+    "weight": 0.04,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "male", "nonbinary", "trueHuman" ],
+    "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "attractedToMen", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesFemaleName"
+  },
+  {
+    "id": "customSpecies_506",
+    "weight": 0,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "male", "female", "trueHuman" ],
+    "impliedAspects": [ "nonbinary", "customSpeciesFemale", "attractedToMen", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesMaleName"
+  },
+  {
+    "id": "customSpecies_507",
+    "weight": 0,
+    "category": "bornHuman",
+    "forbiddenAspects": [ "male", "female", "trueHuman" ],
+    "impliedAspects": [ "nonbinary", "customSpeciesMale", "attractedToMen", "attractedToWomen", "nonhuman" ],
+    "showInSummary": false,
+    "humanName": "customSpeciesFemaleName"
+  }
+]

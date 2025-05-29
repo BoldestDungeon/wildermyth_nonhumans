@@ -1,0 +1,5 @@
+# Mod Injections
+
+Mod Injections are files that allow mods to selectively add, remove or edit values in other files, allowing multiple mods to play nicely together when they need to edit the same files. To create or edit Mod Injections, use the in-game editor. For more information, see the [Mod Injections wiki page](https://wildermyth.com/wiki/Mod_Injections).
+
+This framework includes two Mod Injection files: One for `aspects/humans.json` and one for `history/humanBase.json`. These are used to set up the the common human aspects that allow you to create your custom species separately from the standard human design. Please **DO NOT** change or remove the existing modifications, as doing so may break compatibility with other mods. (**You may** add additional modifications to these files as long as you do not remove the ones originally included.)
