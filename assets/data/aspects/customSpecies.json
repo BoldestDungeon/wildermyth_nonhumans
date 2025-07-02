@@ -1,48 +1,135 @@
 [
-  {
-    "id": "customSpeciesBaseStats",
-    "stats": {
-      "ARMOR": 0,
-      "BLOCK": 45,
-      "CHARISMA": 15,
-      "DODGE": 45,
-      "HEALTH": 5,
-      "MELEE_ACCURACY": 100,
-      "PERCEPTION": 10,
-      "PHYSICAL_DAMAGE_BONUS": 0,
-      "POTENCY": 0,
-      "RANGE_ACCURACY": 100,
-      "RECOVERY_RATE": 25,
-      "RETIREMENT_AGE": 45,
-      "SPEED": 1,
-      "STUNT_CHANCE": 15,
-      "TENACITY": 15,
-      "WARDING": 0
-    },
-    "effects": [
-      "applyDifficultyModifiers"
-    ],
-    "maxValue": "1",
-    "importance": 10
-  },
-  {
-    "id": "customSpeciesInterfusionRecipes",
-    "effects": [
-      "mysticRecipeFireleash",
-      "mysticRecipeSplinterblast",
-      "mysticRecipeDiscus",
-      "mysticRecipeWildGrasp",
-      "mysticRecipeLightLamp",
-      "mysticRecipeStealFire",
-      "mysticRecipeFlareLamp",
-      "mysticRecipeBoneSpear",
-      "mysticRecipeCaltrops",
-      "mysticRecipeShackle",
-      "mysticRecipeBarrage",
-      "mysticRecipeScaldingRain",
-      "mysticRecipeEngulf",
-      "mysticRecipeLassoShardnado"
-    ],
-    "importance": -1
-  }
+{
+	"id": "customSpeciesAging",
+	"effects": [ "customSpecies_aging_init", "customSpecies_aging_check" ],
+	"importance": -1
+},
+{
+	"id": "customSpeciesBaseStats",
+	"effects": [ "applyDifficultyModifiers" ],
+	"stats": {
+		"ARMOR": 0,
+		"BLOCK": 45,
+		"CHARISMA": 15,
+		"DODGE": 45,
+		"HEALTH": 5,
+		"MELEE_ACCURACY": 100,
+		"PERCEPTION": 10,
+		"PHYSICAL_DAMAGE_BONUS": 0,
+		"POTENCY": 0,
+		"RANGE_ACCURACY": 100,
+		"RECOVERY_RATE": 25,
+		"RETIREMENT_AGE": 45,
+		"SPEED": 1,
+		"STUNT_CHANCE": 15,
+		"TENACITY": 15,
+		"WARDING": 0
+	},
+	"maxValue": "1",
+	"importance": 10
+},
+{
+	"id": "customSpeciesInterfusionRecipes",
+	"effects": [
+		"mysticRecipeFireleash",
+		"mysticRecipeSplinterblast",
+		"mysticRecipeDiscus",
+		"mysticRecipeWildGrasp",
+		"mysticRecipeLightLamp",
+		"mysticRecipeStealFire",
+		"mysticRecipeFlareLamp",
+		"mysticRecipeBoneSpear",
+		"mysticRecipeCaltrops",
+		"mysticRecipeShackle",
+		"mysticRecipeBarrage",
+		"mysticRecipeScaldingRain",
+		"mysticRecipeEngulf",
+		"mysticRecipeLassoShardnado"
+	],
+	"importance": -1
+},
+
+{
+	"id": "customSpecies_young",
+	"stats": { "CHARISMA": 15 },
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_earlyMiddleAge",
+	"stats": {
+		"CHARISMA": 10,
+		"DODGE": -2,
+		"HEALTH": -0.2,
+		"RECOVERY_RATE": -8,
+		"SPEED": -0.2,
+		"TENACITY": 5
+	},
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_middleAge",
+	"stats": {
+		"CHARISMA": 5,
+		"DODGE": -4,
+		"HEALTH": -0.4,
+		"RECOVERY_RATE": -15,
+		"SPEED": -0.3,
+		"TENACITY": 10
+	},
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_lateMiddleAge",
+	"stats": {
+		"CHARISMA": 0,
+		"DODGE": -6,
+		"HEALTH": -0.7,
+		"RECOVERY_RATE": -20,
+		"SPEED": -0.4,
+		"TENACITY": 15
+	},
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_oldAge",
+	"effects": [],
+	"stats": {
+		"CHARISMA": -5,
+		"DODGE": -9,
+		"HEALTH": -1,
+		"PERCEPTION": -1,
+		"RECOVERY_RATE": -28,
+		"SPEED": -0.8,
+		"TENACITY": 20
+	},
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_veryOldAge",
+	"effects": [],
+	"stats": {
+		"CHARISMA": -10,
+		"DODGE": -13,
+		"HEALTH": -1.5,
+		"PERCEPTION": -2,
+		"RECOVERY_RATE": -38,
+		"SPEED": -1.2,
+		"TENACITY": 25
+	},
+	"lifespan": "all"
+},
+{
+	"id": "customSpecies_extremeOldAge",
+	"effects": [],
+	"stats": {
+		"CHARISMA": -15,
+		"DODGE": -20,
+		"HEALTH": -2.3,
+		"PERCEPTION": -5,
+		"RECOVERY_RATE": -50,
+		"SPEED": -1.9,
+		"TENACITY": 20
+	},
+	"lifespan": "all"
+}
 ]

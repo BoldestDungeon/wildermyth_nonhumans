@@ -15,6 +15,9 @@
       "customSpeciesInterfusionRecipes",
       "customSpecies_naturalHead",
 
+		  "cannotAge",
+      "customSpeciesAging",
+
       "activeDefender",
       "alive",
       "eligibleForDeathChoice",

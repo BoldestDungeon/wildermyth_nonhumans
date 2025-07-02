@@ -1,0 +1,163 @@
+{
+  "id": "customSpecies_setAgingStats",
+  "info": { 
+    "modId": "wildermyth-drauven-pcs",
+    "dataVersion": 1, 
+    "sourceFile": "aging/customSpecies_setAgingStats",
+    "author": "Ironskink" 
+  },
+  "type": "BRANCH",
+  "targets": [
+    {
+      "template": "SELF"
+    }
+  ],
+  "outcomes": [
+    {
+      "class": "Test",
+      "STUB": "Target is young. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 0, 29) - customSpecies_young",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_young", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_middleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_oldAge",
+          "customSpecies_veryOldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is early middle-age. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 30, 39) - customSpecies_earlyMiddleAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_earlyMiddleAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_middleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_oldAge",
+          "customSpecies_veryOldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is middle-age. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 40, 49) - customSpecies_middleAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_middleAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_oldAge",
+          "customSpecies_veryOldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is late middle-age. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 50, 65) - customSpecies_lateMiddleAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_lateMiddleAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_middleAge",
+          "customSpecies_oldAge",
+          "customSpecies_veryOldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is old-age. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 66, 80) - customSpecies_oldAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_oldAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_middleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_veryOldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is very old. Adjust the 'between' values to change the age bracket.",
+      "value": "between(AGE_IN_YEARS, 81, 99) - customSpecies_veryOldAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_veryOldAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_middleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_oldAge",
+          "customSpecies_extremeOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Test",
+      "STUB": "Target is extremely old. Adjust the 'greater than' value to change the age bracket.",
+      "value": "greaterThan(AGE_IN_YEARS, 100) - customSpecies_extremeOldAge",
+      "threshold": "1",
+      "onPass": {
+        "class": "Aspects",
+        "STUB": "Set the correct age aspect, remove all other age tiers",
+        "addAspects": [ {"id": "customSpecies_extremeOldAge", "merge": "replace", "value": "1" } ],
+        "removeAspects": [
+          "customSpecies_young",
+          "customSpecies_earlyMiddleAge",
+          "customSpecies_middleAge",
+          "customSpecies_lateMiddleAge",
+          "customSpecies_oldAge",
+          "customSpecies_veryOldAge"
+        ]
+      }    
+    },
+    {
+      "class": "Aspects",
+      "STUB": "Remove the Human aging aspects, if they've somehow crept in",
+      "removeAspects": [
+        "young",
+        "earlyMiddleAge",
+        "middleAge",
+        "lateMiddleAge",
+        "oldAge",
+        "veryOldAge",
+        "extremeOldAge"
+      ]
+    }
+  ]
+  }

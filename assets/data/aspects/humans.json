@@ -125,5 +125,10 @@
 {
 	"id": "nonhuman",
 	"importance": -1
+},
+{ 
+	"id": "cannotAge", 
+	"lifespan": "all", 
+	"importance": -1 
 }
 ]

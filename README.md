@@ -10,10 +10,10 @@ This template is brought to you by the minds behind the Drauven PCs project and 
 1. **Download** this sample project.
 1. **Unzip** the contents of this package.
 1. **Copy** the unzipped `assets` folder to the root folder your mod. (Found at `[wildermyth-base-directory]/mods/user/[your-mod-name]`)
-1. **Rename** all files in this project by changing all instances of `customSpecies` to your new species name, leading with a lowercase letter. (For example: if making playable Gorgons, `customSpeciesBase.json` becomes `gorgonBase.json`)
+1. **Rename** _all_ files in this project by changing all instances of `customSpecies` to your new species name, leading with a lowercase letter. (For example: if making playable Gorgons, `customSpeciesBase.json` becomes `gorgonBase.json`)
     - **Note:** Files without `customSpecies` in the name do not have to be renamed. 
-1. **Find/Replace** in all files, changing `customSpecies` (case-sensitive) to your species name (leading with a lowercase letter), then finding all instances of `CustomSpecies` (case-sensitive, only found in `assets/data/generation/humanNames.json`) with your species name (leading with a capital letter).
-    - **Tip:** Using a code editor, such as [VS Code](https://code.visualstudio.com/download), will allow you to find/replace across all files in a project folder very quickly.
+1. **Find/Replace** in _all_ files, changing `customSpecies` (case-sensitive) to your species name (leading with a lowercase letter), then finding all instances of `CustomSpecies` (case-sensitive, only found in `assets/data/generation/humanNames.json` and `assets/text/aspects/aspects.properties`) with your species name (leading with a capital letter).
+    - **Tip:** Using a code editor, such as [VS Code](https://code.visualstudio.com/download), will allow you to find/replace across all files in a project folder very quickly. ([Tutorial](https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code))
 
 You are now ready to design your own nonhuman characters to add to the game!
 
@@ -32,9 +32,10 @@ Additional instructions for how to customize each part of your nonhuman heroes c
 
 * **Adjusting Percentages** of characters that are generated as your custom species, including male/female ratios and attractions: See `assets/data/history`
 * **Base Stats:** See `assets/data/aspects`
+* **Aging, Age Adjustments**: See `assets/data/effects/aging` and `assets/data/aspects`
 * **Heads, Faces and Face Customizations:** See `assets/data/peopleParts`
 * **Name Generation:** See `assets/data/generation`
-* **Rigs:** You can visually distinguish characters based on class, gender, neither, or both by choosing the appropriate rig setup. See `assets/data/generation`
+* **Rigs:** You can visually distinguish characters based on class, gender, neither, or both by choosing the appropriate rig setup. See `assets/data/generation` and `assets/animation/spine`
 
 ## HELP!
 

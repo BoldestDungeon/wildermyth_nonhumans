@@ -20,9 +20,12 @@ To make your custom species feel distinct from regular humans, you have the abil
 
 ### Customizing Your Species
 
-By default, this project gives your custom species the same base stats and interfusion list that humans get. To make changes:
+By default, this project gives your custom species the same base stats, age adjustments, and interfusion list that humans get. To make changes:
 
 * You may freely edit the stat values in the renamed `customSpeciesBaseStats` aspect (either using the in-game editor or your text editor) to any values you want
+* You may freely edit the stat values in the age-related aspects (`customSpecies_young`, `customSpecies_middleAge`, etc.).
+  * To adjust when characters move from one life stage to the next, see `data/effects/aging/customSpecies_setAgingStats.json`
+  * You may add or remove age bracket aspects, but to make them apply you will need to edit `data/effects/aging/customSpecies_setAgingStats` appropriately. 
 * You may add or remove effects to the list in the renamed `customSpeciesInterfusionRecipes` aspect (either using the in-game editor or your text editor) to change the interfusion list.
 
 Creating new interfusion spells requires making new `effects` and adding them to your mod. Please refer to the [Wildermyth modding wiki](https://wildermyth.com/wiki/Category:Modding) or visit the community [Discord Server](https://discord.gg/ZQcmPtf) for more information.
@@ -595,5 +598,175 @@ For **additional** head variations:
 				"ifNoOwnerAspect": "themeSkin_shadow*",
         "ifOwnerAspects": ["themePiece_shadow_head", "humanSkin_extra|customSpecies_head|customSpecies_headType"]
       },
+      {
+        "name": "replaceHead_skullWrappedC_untinted_customSpecies_headType",
+        "depth": 4002,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonWrapped", "humanSkin_extra|customSpecies_head|customSpecies_headType"]
+      },
+      {
+        "name": "replaceHead_skullWrappedB_tint1_customSpecies_headType",
+        "tint": "primary",
+        "depth": 4001,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonWrapped", "humanSkin_extra|customSpecies_head|customSpecies_headType"]
+      },
+      {
+        "name": "replaceHead_skullWrappedA_untinted_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonWrapped", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [
+          "neutral",
+          "interested",
+          "grim",
+          "skeptical",
+          "dubious",
+          "happy",
+          "sad",
+          "angry",
+          "rage",
+          "scheming"
+        ]
+      },
+      {
+        "name": "replaceHead_skullWrappedA_untinted_surprised_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonWrapped", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "hit", "dead", "surprised", "scared" ]
+      },
+      {
+        "name": "replaceHead_skullWrappedA_untinted_open_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonWrapped", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "open", "joke", "joy" ]
+      },
+      {
+        "name": "replaceHead_skullMonster_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonMonster", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [
+          "neutral",
+          "interested",
+          "grim",
+          "skeptical",
+          "dubious",
+          "happy",
+          "sad",
+          "angry",
+          "rage",
+          "scheming",
+          "hit",
+          "dead"
+        ]
+      },
+      {
+        "name": "replaceHead_skullMonster_talk_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonMonster", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "open", "joke", "joy" ]
+      },
+      {
+        "name": "replaceHead_skullMonster_surprised_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonMonster", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "surprised", "scared" ]
+      },
+      {
+        "name": "replaceHead_skull_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifNoOwnerAspect": "themeSkin_skeleton*",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": [ "themePiece_skeleton_head", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "neutral", "interested", "grim", "skeptical", "dubious", "happy", "sad", "angry", "rage", "scheming", "hit", "dead" ]
+      },
+      {
+        "name": "replaceHead_skull_talk_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifNoOwnerAspect": "themeSkin_skeleton*",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": [ "themePiece_skeleton_head", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "open", "joke", "joy" ]
+      },
+      {
+        "name": "replaceHead_skull_surprised_customSpecies_headType",
+        "depth": 4000,
+        "headOffset": true,
+        "ifNoOwnerAspect": "themeSkin_skeleton*",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": [ "themePiece_skeleton_head", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "surprised", "scared" ]
+      },
+      {
+        "name": "replaceHead_skullChainB_untinted_customSpecies_headType",
+        "depth": 4001,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonChain", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [
+          "neutral",
+          "angry",
+          "dubious",
+          "grim",
+          "happy",
+          "interested",
+          "rage",
+          "sad",
+          "scheming",
+          "skeptical"
+        ]
+      },
+      {
+        "name": "replaceHead_skullChainB_untinted_surprised_customSpecies_headType",
+        "depth": 4001,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonChain", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "hit", "dead", "scared", "surprised" ]
+      },
+      {
+        "name": "replaceHead_skullChainB_untinted_open_customSpecies_headType",
+        "depth": 4001,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonChain", "humanSkin_extra|customSpecies_head|customSpecies_headType"],
+        "facialExpression": [ "open", "joy", "joke" ]
+      },
+      {
+        "name": "replaceHead_skullChainA_tint2_customSpecies_headType",
+        "tint": "secondary",
+        "depth": 4000,
+        "headOffset": true,
+        "ifOwnerAspect": "themePiece_skeleton_head",
+        "ifNoOwnerAspects": ["themePiece_crow_head", "themePiece_turtle_head", "themePiece_wolf_head", "themePiece_tree_head", "themePiece_frog_head", "themePiece_fishman_head"],
+        "ifOwnerAspects": ["themeSkin_skeletonChain", "humanSkin_extra|customSpecies_head|customSpecies_headType"]
+      },
+
 ```
 </details>

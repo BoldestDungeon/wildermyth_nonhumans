@@ -9,7 +9,7 @@ To change the position of the head:
 * Open the skeleton file with a text or code editor
 * Find the entry that begins with `{"name":"bone3","parent":"bone2","length":72,`
 * Edit the values for `"x"` and `"y"` to change where the head is positioned.
-    - **NOTE:** Due to a quirk of how the animation is read, changing the `x` value moves the head _vertically_, and changing the `y` value moves the head _horizontally_.
+  - **NOTE:** Due to a quirk of how the animation is read, changing the `x` value moves the head _vertically_, and changing the `y` value moves the head _horizontally_.
 
 ## Advanced: Changing the size of the head's canvas
 

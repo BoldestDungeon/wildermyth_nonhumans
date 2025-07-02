@@ -1,0 +1,27 @@
+{
+  "id": "customSpecies_aging_init",
+  "info": { 
+    "modId": "wildermyth-drauven-pcs",
+    "dataVersion": 1, 
+    "sourceFile": "aging/customSpecies_aging_init",
+    "author": "Ironskink" 
+  },
+  "type": "ABILITIES_CHANGED",
+  "targets": [
+    {
+      "template": "SELF",
+      "aspectValues": [
+        { "id": "customSpecies" },
+        { "id": "customSpecies_cannotAge", "forbidden": true },
+        { "id": "hookIntegrity_eternalUnrest", "forbidden": true }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "class": "BranchAbility",
+      "branchAbility": "customSpecies_setAgingStats",
+      "target": "self"
+    }
+  ]
+}
