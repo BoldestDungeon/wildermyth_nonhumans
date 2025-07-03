@@ -1,9 +1,9 @@
 {
-	"customSpeciesMaleName": ["<CustomSpeciesMaleFirstName> <CustomSpeciesConstructedSurnamePrefix><Surname>"],
+	"customSpeciesMaleName": ["<CustomSpeciesMaleFirstName> <CustomSpeciesConstructedSurnamePrefix><CustomSpeciesSurname>"],
 	"customSpeciesMaleFirstName": ["_OR_", [3, "<CustomSpeciesPredefinedMaleFirstName>"], [6, "<CustomSpeciesConstructedMaleFirstName>"]],
 	"customSpeciesConstructedMaleFirstName": ["<CustomSpeciesFirstNameBegin><customSpeciesMaleFirstNameEnd>"],
 
-	"customSpeciesFemaleName": ["<CustomSpeciesFemaleFirstName> <CustomSpeciesConstructedSurnamePrefix><Surname>"],
+	"customSpeciesFemaleName": ["<CustomSpeciesFemaleFirstName> <CustomSpeciesConstructedSurnamePrefix><CustomSpeciesSurname>"],
 	"customSpeciesFemaleFirstName": ["_OR_", [3, "<CustomSpeciesPredefinedFemaleFirstName>"], [6, "<CustomSpeciesConstructedFemaleFirstName>"]],
 	"customSpeciesConstructedFemaleFirstName": ["<CustomSpeciesFirstNameBegin><customSpeciesFemaleFirstNameEnd>"],
 
