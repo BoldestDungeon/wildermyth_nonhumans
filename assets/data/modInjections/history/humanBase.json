@@ -1,10 +1,55 @@
 {
   "modInjections": [
-    {
-      "jsonPath": "humanBase.001/impliedAspects",
-      "type": "stringList",
-      "addStrings": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes", "trueHuman" ],
-      "remove": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes", "trueHuman" ]
-    }
+	{
+		"jsonPath": "humanBase.001/impliedAspects",
+		"type": "stringList",
+		"addStrings": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes", "trueHuman" ],
+		"remove": [ "humanBaseStats", "humanVoice", "heroicActions", "basicInterfusionRecipes" ]
+	},
+	{
+		"jsonPath": "humanBase.001/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "500/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "501/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "502/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "503/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "504/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "505/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "506/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	},
+	{
+		"jsonPath": "507/forbiddenAspects",
+		"type": "stringList",
+		"addStrings": [ "nonhuman", "customSpecies" ]
+	}
   ]
   }
