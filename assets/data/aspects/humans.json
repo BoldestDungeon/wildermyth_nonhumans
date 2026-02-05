@@ -15,7 +15,10 @@
 		"mysticRecipeBarrage",
 		"mysticRecipeScaldingRain",
 		"mysticRecipeEngulf",
-		"mysticRecipeLassoShardnado"
+		"mysticRecipeLassoShardnado",
+		"mysticRecipeCrystalStorm",
+		"mysticRecipeExplodeBarrel",
+		"mysticRecipeDelayRift"
 	],
 	"importance": -1
 },
@@ -66,11 +69,17 @@
 		"TENACITY": 15,
 		"WARDING": 0
 	},
-	"effects": [
-		"applyDifficultyModifiers"
-	],
 	"maxValue": "1",
 	"importance": 10
+},
+{
+	"id": "usesDifficultyModifiers",
+	"effects": [
+		"monitorDifficultyChanges",
+		"watchDifficultyChanges"
+	],
+	"lifespan": "all",
+	"importance": -1
 },
 {
 	"id": "statModifier_combatDifficulty_1",
@@ -129,6 +138,6 @@
 { 
 	"id": "cannotAge", 
 	"lifespan": "all", 
-	"importance": -1 
+	"importance": -1
 }
 ]

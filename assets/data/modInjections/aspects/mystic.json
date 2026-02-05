@@ -1,0 +1,29 @@
+{
+"modId": "wildermyth-drauven-pcs",
+"modInjections": [
+	{
+		"jsonPath": "interfused/effects",
+		"type": "stringList",
+		"addJson": { "class": "java.lang.String", "value": "" },
+		"remove": [
+			"mysticRecipeFireleash",
+			"mysticRecipeSplinterblast",
+			"mysticRecipeDiscus",
+			"mysticRecipeWildGrasp",
+			"mysticRecipeLightLamp",
+			"mysticRecipeStealFire",
+			"mysticRecipeFlareLamp",
+			"mysticRecipeBoneSpear",
+			"mysticRecipeCaltrops",
+			"mysticRecipeShackle",
+			"mysticRecipeBarrage",
+			"mysticRecipeScaldingRain",
+			"mysticRecipeEngulf",
+			"mysticRecipeLassoShardnado",
+			"mysticRecipeCrystalStorm",
+			"mysticRecipeExplodeBarrel",
+			"mysticRecipeDelayRift"
+		]
+	}
+]
+}
