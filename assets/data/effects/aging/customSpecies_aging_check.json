@@ -1,7 +1,6 @@
 {
   "id": "customSpecies_aging_check",
   "info": {
-    "modId": "wildermyth-drauven-pcs",
     "dataVersion": 1, 
     "sourceFile": "aging/customSpecies_aging_check",
     "author": "Ironskink"
