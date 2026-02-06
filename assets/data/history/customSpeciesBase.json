@@ -44,7 +44,7 @@
     "forbiddenAspects": [ "female", "attractedToMen", "nonbinary" ],
     "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "heterosexual", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesMaleName"
   },
   {
@@ -54,7 +54,7 @@
     "forbiddenAspects": [ "female", "attractedToWomen", "nonbinary" ],
     "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "gay", "attractedToMen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesMaleName"
   },
   {
@@ -64,7 +64,7 @@
     "forbiddenAspects": [ "male", "attractedToWomen", "nonbinary" ],
     "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "heterosexual", "attractedToMen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesFemaleName"
   },
   {
@@ -74,7 +74,7 @@
     "forbiddenAspects": [ "male", "attractedToMen", "nonbinary" ],
     "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "gay", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesFemaleName"
   },
   {
@@ -84,7 +84,7 @@
     "forbiddenAspects": [ "female", "nonbinary" ],
     "impliedAspects": [ "male", "customSpeciesMale", "maleBody", "attractedToMen", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesMaleName"
   },
   {
@@ -94,7 +94,7 @@
     "forbiddenAspects": [ "male", "nonbinary" ],
     "impliedAspects": [ "female", "customSpeciesFemale", "femaleBody", "attractedToMen", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesFemaleName"
   },
   {
@@ -104,7 +104,7 @@
     "forbiddenAspects": [ "male", "female" ],
     "impliedAspects": [ "nonbinary", "customSpeciesFemale", "attractedToMen", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesMaleName"
   },
   {
@@ -114,7 +114,7 @@
     "forbiddenAspects": [ "male", "female" ],
     "impliedAspects": [ "nonbinary", "customSpeciesMale", "attractedToMen", "attractedToWomen", "nonhuman" ],
     "showInSummary": false,
-    "requireAspects": "customSpecies",
+    "requireAspects": [ "customSpecies" ],
     "humanName": "customSpeciesFemaleName"
   }
 ]
